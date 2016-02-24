@@ -2,7 +2,7 @@ var React = require('react');
 
 var SearchBox = React.createClass({
 	getInitialState: function() {
-		return: {searchTerm: ""};
+		return {searchTerm: ""};
 	},
 	changeSearchField: function(e) {
 		this.setState({searchTerm: e.target.value});
